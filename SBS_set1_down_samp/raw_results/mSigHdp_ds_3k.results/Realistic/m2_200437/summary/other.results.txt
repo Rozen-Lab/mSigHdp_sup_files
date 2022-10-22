@@ -1,0 +1,24 @@
+Average cosine similarity, only best matches are considered
+[1] 0.990674
+
+Number of reference signatures
+[1] 23
+
+Number of extracted signatures
+[1] 22
+
+True positive reference signatures
+ [1] "SBS1"   "SBS2"   "SBS3"   "SBS4"   "SBS5"   "SBS7a"  "SBS7b" 
+ [8] "SBS7c"  "SBS7d"  "SBS12"  "SBS13"  "SBS16"  "SBS17a" "SBS17b"
+[15] "SBS18"  "SBS22"  "SBS28"  "SBS29"  "SBS40"  "SBS41"  "SBS44" 
+
+True positive extracted signatures
+ [1] "hdp.1"  "hdp.10" "hdp.11" "hdp.12" "hdp.13" "hdp.14" "hdp.15"
+ [8] "hdp.16" "hdp.17" "hdp.18" "hdp.19" "hdp.2"  "hdp.20" "hdp.21"
+[15] "hdp.3"  "hdp.4"  "hdp.5"  "hdp.6"  "hdp.7"  "hdp.8"  "hdp.9" 
+
+False positive signatures
+[1] "hdp.22"
+
+False negative signatures
+[1] "SBS35" "SBS38"

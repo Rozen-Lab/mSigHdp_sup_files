@@ -1,0 +1,64 @@
+R version 4.1.1 (2021-08-10)
+Platform: x86_64-conda-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
+
+Matrix products: default
+BLAS/LAPACK: /home/wuyang/bin/anaconda3/envs/R-4.1/lib/libopenblasp-r0.3.17.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats4    parallel  stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] signeR_1.18.1               NMF_0.23.0                 
+ [3] cluster_2.1.2               rngtools_1.5.2             
+ [5] pkgmaker_0.32.2             registry_0.5-1             
+ [7] VariantAnnotation_1.38.0    Rsamtools_2.8.0            
+ [9] Biostrings_2.60.2           XVector_0.32.0             
+[11] SummarizedExperiment_1.22.0 Biobase_2.52.0             
+[13] GenomicRanges_1.44.0        GenomeInfoDb_1.28.4        
+[15] IRanges_2.26.0              S4Vectors_0.30.2           
+[17] MatrixGenerics_1.4.3        matrixStats_0.61.0         
+[19] BiocGenerics_0.38.0         SynSigRun_0.1.2.9002       
+[21] ICAMS_3.0.1.9005           
+
+loaded via a namespace (and not attached):
+ [1] bitops_1.0-7             bit64_4.0.5              filelock_1.0.2          
+ [4] doParallel_1.0.16        RColorBrewer_1.1-2       progress_1.2.2          
+ [7] httr_1.4.2               tools_4.1.1              utf8_1.2.2              
+[10] R6_2.5.1                 colorspace_2.0-2         DBI_1.1.1               
+[13] withr_2.4.2              tidyselect_1.1.1         prettyunits_1.1.1       
+[16] bit_4.0.4                curl_4.3.2               compiler_4.1.1          
+[19] xml2_1.3.2               DelayedArray_0.18.0      rtracklayer_1.52.1      
+[22] BWStest_0.2.2            scales_1.1.1             mvtnorm_1.1-3           
+[25] multcompView_0.1-8       rappdirs_0.3.3           stringr_1.4.0           
+[28] digest_0.6.28            pkgconfig_2.0.3          dbplyr_2.1.1            
+[31] fastmap_1.1.0            BSgenome_1.60.0          rlang_0.4.12            
+[34] RSQLite_2.2.8            SuppDists_1.1-9.5        BiocIO_1.2.0            
+[37] generics_0.1.1           BiocParallel_1.26.2      dplyr_1.0.7             
+[40] zip_2.2.0                RCurl_1.98-1.5           magrittr_2.0.1          
+[43] GenomeInfoDbData_1.2.6   Matrix_1.3-4             Rcpp_1.0.7              
+[46] munsell_0.5.0            fansi_0.5.0              lifecycle_1.0.1         
+[49] stringi_1.7.5            yaml_2.2.1               MASS_7.3-54             
+[52] zlibbioc_1.38.0          plyr_1.8.6               BiocFileCache_2.0.0     
+[55] grid_4.1.1               blob_1.2.2               crayon_1.4.2            
+[58] lattice_0.20-45          PMCMRplus_1.9.2          GenomicFeatures_1.44.2  
+[61] hms_1.1.1                KEGGREST_1.32.0          pillar_1.6.4            
+[64] rjson_0.2.20             kSamples_1.2-9           reshape2_1.4.4          
+[67] codetools_0.2-18         biomaRt_2.48.3           XML_3.99-0.8            
+[70] glue_1.5.0               data.table_1.14.2        nloptr_1.2.2.3          
+[73] png_0.1-7                vctrs_0.3.8              foreach_1.5.1           
+[76] gtable_0.3.0             purrr_0.3.4              assertthat_0.2.1        
+[79] cachem_1.0.6             ggplot2_3.3.5            gridBase_0.4-7          
+[82] xtable_1.8-4             Rmpfr_0.8-7              restfulr_0.0.13         
+[85] class_7.3-19             SynSigGen_1.0.6          tibble_3.1.6            
+[88] iterators_1.0.13         GenomicAlignments_1.28.0 AnnotationDbi_1.54.1    
+[91] memoise_2.0.0            gmp_0.6-2.1              ellipsis_0.3.2          

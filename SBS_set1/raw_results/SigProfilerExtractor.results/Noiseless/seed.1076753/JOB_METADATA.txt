@@ -1,0 +1,168 @@
+THIS FILE CONTAINS THE METADATA ABOUT SYSTEM AND RUNTIME
+
+
+-------System Info-------
+Operating System Name: Linux
+Nodename: Monster2
+Release: 4.18.0-408.el8.x86_64
+Version: #1 SMP Mon Jul 18 17:42:52 UTC 2022
+
+-------Python and Package Versions------- 
+Python Version: 3.10.5
+SigProfilerExtractor Version: 1.1.7
+SigProfilerPlotting Version: 1.2.1
+SigProfilerMatrixGenerator Version: 1.2.5
+Pandas version: 1.4.2
+Numpy version: 1.22.4
+Scipy version: 1.8.1
+Scikit-learn version: 1.1.1
+
+--------------EXECUTION PARAMETERS--------------
+INPUT DATA
+	input_type: matrix
+	output: /home/e0240162/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set1/raw_results/SigProfilerExtractor.results/Noiseless/seed.1076753/
+	input_data: /home/e0240162/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set1/input/Noiseless/ground.truth.syn.catalog.tsv
+	reference_genome: GRCh37
+	context_types: SBS96
+	exome: False
+NMF REPLICATES
+	minimum_signatures: 10
+	maximum_signatures: 40
+	NMF_replicates: 100
+NMF ENGINE
+	NMF_init: random
+	precision: single
+	matrix_normalization: gmm
+	resample: True
+	seeds: /home/e0240162/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set1/raw_results/SigProfilerExtractor.results/Noiseless/seed.1076753/Seeds.txt
+	min_NMF_iterations: 1,000
+	max_NMF_iterations: 200,000
+	NMF_test_conv: 1,000
+	NMF_tolerance: 1e-08
+CLUSTERING
+	clustering_distance: cosine
+EXECUTION
+	cpu: 60; Maximum number of CPU is 192
+	gpu: False
+Solution Estimation
+	stability: 0.8
+	min_stability: 0.2
+	combined_stability: 1.0
+COSMIC MATCH
+	opportunity_genome: GRCh37
+\cosmic_version: 3.2
+	nnls_add_penalty: 0.05
+	nnls_remove_penalty: 0.01
+	initial_remove_penalty: 0.05
+	de_novo_fit_penalty: 0.02
+	refit_denovo_signatures: True
+	collapse_to_SBS96: True
+
+-------Analysis Progress------- 
+[2022-09-14 10:47:41] Analysis started: 
+
+##################################
+
+[2022-09-14 10:47:41] Analysis started for SBS96. Matrix size [96 rows x 540 columns]
+
+[2022-09-14 10:47:41] Normalization GMM with cutoff value set at 13528
+
+[2022-09-14 10:49:38] SBS96 de novo extraction completed for a total of 10 signatures! 
+Execution time:0:01:56
+
+[2022-09-14 10:52:39] SBS96 de novo extraction completed for a total of 11 signatures! 
+Execution time:0:03:00
+
+[2022-09-14 10:55:17] SBS96 de novo extraction completed for a total of 12 signatures! 
+Execution time:0:02:38
+
+[2022-09-14 10:59:09] SBS96 de novo extraction completed for a total of 13 signatures! 
+Execution time:0:03:51
+
+[2022-09-14 11:03:21] SBS96 de novo extraction completed for a total of 14 signatures! 
+Execution time:0:04:11
+
+[2022-09-14 11:09:52] SBS96 de novo extraction completed for a total of 15 signatures! 
+Execution time:0:06:31
+
+[2022-09-14 11:14:44] SBS96 de novo extraction completed for a total of 16 signatures! 
+Execution time:0:04:52
+
+[2022-09-14 11:20:29] SBS96 de novo extraction completed for a total of 17 signatures! 
+Execution time:0:05:45
+
+[2022-09-14 11:28:54] SBS96 de novo extraction completed for a total of 18 signatures! 
+Execution time:0:08:24
+
+[2022-09-14 11:37:34] SBS96 de novo extraction completed for a total of 19 signatures! 
+Execution time:0:08:39
+
+[2022-09-14 11:47:42] SBS96 de novo extraction completed for a total of 20 signatures! 
+Execution time:0:10:08
+
+[2022-09-14 12:01:37] SBS96 de novo extraction completed for a total of 21 signatures! 
+Execution time:0:13:54
+
+[2022-09-14 12:16:30] SBS96 de novo extraction completed for a total of 22 signatures! 
+Execution time:0:14:53
+
+[2022-09-14 12:35:09] SBS96 de novo extraction completed for a total of 23 signatures! 
+Execution time:0:18:38
+
+[2022-09-14 12:52:30] SBS96 de novo extraction completed for a total of 24 signatures! 
+Execution time:0:17:20
+
+[2022-09-14 13:13:23] SBS96 de novo extraction completed for a total of 25 signatures! 
+Execution time:0:20:52
+
+[2022-09-14 13:36:14] SBS96 de novo extraction completed for a total of 26 signatures! 
+Execution time:0:22:51
+
+[2022-09-14 14:02:13] SBS96 de novo extraction completed for a total of 27 signatures! 
+Execution time:0:25:59
+
+[2022-09-14 14:28:55] SBS96 de novo extraction completed for a total of 28 signatures! 
+Execution time:0:26:42
+
+[2022-09-14 14:57:00] SBS96 de novo extraction completed for a total of 29 signatures! 
+Execution time:0:28:04
+
+[2022-09-14 15:29:05] SBS96 de novo extraction completed for a total of 30 signatures! 
+Execution time:0:32:05
+
+[2022-09-14 16:00:37] SBS96 de novo extraction completed for a total of 31 signatures! 
+Execution time:0:31:31
+
+[2022-09-14 16:29:21] SBS96 de novo extraction completed for a total of 32 signatures! 
+Execution time:0:28:44
+
+[2022-09-14 17:01:25] SBS96 de novo extraction completed for a total of 33 signatures! 
+Execution time:0:32:03
+
+[2022-09-14 17:35:11] SBS96 de novo extraction completed for a total of 34 signatures! 
+Execution time:0:33:46
+
+[2022-09-14 18:10:48] SBS96 de novo extraction completed for a total of 35 signatures! 
+Execution time:0:35:36
+
+[2022-09-14 18:44:28] SBS96 de novo extraction completed for a total of 36 signatures! 
+Execution time:0:33:40
+
+[2022-09-14 19:22:10] SBS96 de novo extraction completed for a total of 37 signatures! 
+Execution time:0:37:41
+
+[2022-09-14 20:00:43] SBS96 de novo extraction completed for a total of 38 signatures! 
+Execution time:0:38:32
+
+[2022-09-14 20:40:23] SBS96 de novo extraction completed for a total of 39 signatures! 
+Execution time:0:39:39
+
+[2022-09-14 21:02:18] SBS96 de novo extraction completed for a total of 40 signatures! 
+Execution time:0:21:55
+
+[2022-09-14 21:11:27] Analysis ended: 
+
+-------Job Status------- 
+Analysis of mutational signatures completed successfully! 
+Total execution time: 10:23:45 
+Results can be found in:  /home/e0240162/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set1/raw_results/SigProfilerExtractor.results/Noiseless/seed.1076753/  folder

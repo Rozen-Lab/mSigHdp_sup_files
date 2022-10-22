@@ -1,0 +1,38 @@
+[1] 21
+
+Call: rlm(formula = num.found ~ spike.in.count + Approach, data = sbs35_detect)
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5879 -1.5215  0.3699  1.2394  2.7877 
+
+Coefficients:
+                             Value   Std. Error t value
+(Intercept)                   3.4152  0.6678     5.1145
+spike.in.count                0.0345  0.0115     2.9972
+ApproachSigProfilerExtractor -2.2391  0.7421    -3.0172
+
+Residual standard error: 2.047 on 21 degrees of freedom
+                 (Intercept)               spike.in.count ApproachSigProfilerExtractor 
+                4.576427e-05                 6.866125e-03                 6.559301e-03 
+
+Call:
+lm(formula = num.found ~ spike.in.count + Approach, data = sbs35_detect)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.4867 -1.4979  0.3012  1.3355  2.7908 
+
+Coefficients:
+                             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                   3.30889    0.63299   5.227 3.51e-05 ***
+spike.in.count                0.03557    0.01092   3.256  0.00378 ** 
+ApproachSigProfilerExtractor -2.16667    0.70349  -3.080  0.00568 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.723 on 21 degrees of freedom
+Multiple R-squared:  0.4889,	Adjusted R-squared:  0.4402 
+F-statistic: 10.04 on 2 and 21 DF,  p-value: 0.0008701
+
+                 (Intercept)               spike.in.count ApproachSigProfilerExtractor 
+                3.510487e-05                 3.780220e-03                 5.680161e-03 

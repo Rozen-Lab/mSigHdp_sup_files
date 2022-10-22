@@ -1,0 +1,258 @@
+THIS FILE CONTAINS THE METADATA ABOUT SYSTEM AND RUNTIME
+
+
+-------System Info-------
+Operating System Name: Linux
+Nodename: compute1016
+Release: 3.10.0-1160.11.1.el7.x86_64
+Version: #1 SMP Fri Dec 18 16:34:56 UTC 2020
+
+-------Python and Package Versions------- 
+Python Version: 3.10.5
+SigProfilerExtractor Version: 1.1.7
+SigProfilerPlotting Version: 1.2.2
+SigProfilerMatrixGenerator Version: 1.2.9
+Pandas version: 1.4.3
+Numpy version: 1.23.2
+Scipy version: 1.9.0
+Scikit-learn version: 1.1.2
+
+--------------EXECUTION PARAMETERS--------------
+INPUT DATA
+	input_type: matrix
+	output: /data/rozen/home/wuyang/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set2/raw_results/SigProfilerExtractor.results/Realistic/seed.1076753/
+	input_data: /data/rozen/home/wuyang/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set2/input/Realistic/ground.truth.syn.catalog.tsv
+	reference_genome: GRCh37
+	context_types: SBS96
+	exome: False
+NMF REPLICATES
+	minimum_signatures: 2
+	maximum_signatures: 62
+	NMF_replicates: 100
+NMF ENGINE
+	NMF_init: random
+	precision: single
+	matrix_normalization: gmm
+	resample: True
+	seeds: /data/rozen/home/wuyang/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set2/raw_results/SigProfilerExtractor.results/Realistic/seed.1076753/Seeds.txt
+	min_NMF_iterations: 1,000
+	max_NMF_iterations: 200,000
+	NMF_test_conv: 1,000
+	NMF_tolerance: 1e-08
+CLUSTERING
+	clustering_distance: cosine
+EXECUTION
+	cpu: 60; Maximum number of CPU is 256
+	gpu: False
+Solution Estimation
+	stability: 0.8
+	min_stability: 0.2
+	combined_stability: 1.0
+COSMIC MATCH
+	opportunity_genome: GRCh37
+\cosmic_version: 3.2
+	nnls_add_penalty: 0.05
+	nnls_remove_penalty: 0.01
+	initial_remove_penalty: 0.05
+	de_novo_fit_penalty: 0.02
+	refit_denovo_signatures: True
+	collapse_to_SBS96: True
+
+-------Analysis Progress------- 
+[2022-09-29 04:39:40] Analysis started: 
+
+##################################
+
+[2022-09-29 04:39:41] Analysis started for SBS96. Matrix size [96 rows x 1080 columns]
+
+[2022-09-29 04:39:41] Normalization GMM with cutoff value set at 18887
+
+[2022-09-29 04:40:48] SBS96 de novo extraction completed for a total of 2 signatures! 
+Execution time:0:01:07
+
+[2022-09-29 04:42:12] SBS96 de novo extraction completed for a total of 3 signatures! 
+Execution time:0:01:23
+
+[2022-09-29 04:43:41] SBS96 de novo extraction completed for a total of 4 signatures! 
+Execution time:0:01:28
+
+[2022-09-29 04:45:35] SBS96 de novo extraction completed for a total of 5 signatures! 
+Execution time:0:01:54
+
+[2022-09-29 04:47:51] SBS96 de novo extraction completed for a total of 6 signatures! 
+Execution time:0:02:15
+
+[2022-09-29 04:50:36] SBS96 de novo extraction completed for a total of 7 signatures! 
+Execution time:0:02:45
+
+[2022-09-29 04:53:17] SBS96 de novo extraction completed for a total of 8 signatures! 
+Execution time:0:02:40
+
+[2022-09-29 04:56:51] SBS96 de novo extraction completed for a total of 9 signatures! 
+Execution time:0:03:34
+
+[2022-09-29 05:00:36] SBS96 de novo extraction completed for a total of 10 signatures! 
+Execution time:0:03:44
+
+[2022-09-29 05:04:50] SBS96 de novo extraction completed for a total of 11 signatures! 
+Execution time:0:04:14
+
+[2022-09-29 05:09:11] SBS96 de novo extraction completed for a total of 12 signatures! 
+Execution time:0:04:20
+
+[2022-09-29 05:14:29] SBS96 de novo extraction completed for a total of 13 signatures! 
+Execution time:0:05:18
+
+[2022-09-29 05:20:29] SBS96 de novo extraction completed for a total of 14 signatures! 
+Execution time:0:06:00
+
+[2022-09-29 05:27:54] SBS96 de novo extraction completed for a total of 15 signatures! 
+Execution time:0:07:24
+
+[2022-09-29 05:34:11] SBS96 de novo extraction completed for a total of 16 signatures! 
+Execution time:0:06:17
+
+[2022-09-29 05:41:46] SBS96 de novo extraction completed for a total of 17 signatures! 
+Execution time:0:07:34
+
+[2022-09-29 05:50:08] SBS96 de novo extraction completed for a total of 18 signatures! 
+Execution time:0:08:22
+
+[2022-09-29 06:00:44] SBS96 de novo extraction completed for a total of 19 signatures! 
+Execution time:0:10:35
+
+[2022-09-29 06:10:21] SBS96 de novo extraction completed for a total of 20 signatures! 
+Execution time:0:09:37
+
+[2022-09-29 06:21:57] SBS96 de novo extraction completed for a total of 21 signatures! 
+Execution time:0:11:36
+
+[2022-09-29 06:37:00] SBS96 de novo extraction completed for a total of 22 signatures! 
+Execution time:0:15:03
+
+[2022-09-29 06:53:04] SBS96 de novo extraction completed for a total of 23 signatures! 
+Execution time:0:16:03
+
+[2022-09-29 07:06:41] SBS96 de novo extraction completed for a total of 24 signatures! 
+Execution time:0:13:36
+
+[2022-09-29 07:22:33] SBS96 de novo extraction completed for a total of 25 signatures! 
+Execution time:0:15:51
+
+[2022-09-29 07:41:38] SBS96 de novo extraction completed for a total of 26 signatures! 
+Execution time:0:19:05
+
+[2022-09-29 08:05:58] SBS96 de novo extraction completed for a total of 27 signatures! 
+Execution time:0:24:19
+
+[2022-09-29 08:26:23] SBS96 de novo extraction completed for a total of 28 signatures! 
+Execution time:0:20:24
+
+[2022-09-29 08:50:33] SBS96 de novo extraction completed for a total of 29 signatures! 
+Execution time:0:24:10
+
+[2022-09-29 09:18:56] SBS96 de novo extraction completed for a total of 30 signatures! 
+Execution time:0:28:22
+
+[2022-09-29 09:50:25] SBS96 de novo extraction completed for a total of 31 signatures! 
+Execution time:0:31:29
+
+[2022-09-29 10:17:27] SBS96 de novo extraction completed for a total of 32 signatures! 
+Execution time:0:27:01
+
+[2022-09-29 10:47:59] SBS96 de novo extraction completed for a total of 33 signatures! 
+Execution time:0:30:32
+
+[2022-09-29 11:21:59] SBS96 de novo extraction completed for a total of 34 signatures! 
+Execution time:0:34:00
+
+[2022-09-29 11:59:34] SBS96 de novo extraction completed for a total of 35 signatures! 
+Execution time:0:37:34
+
+[2022-09-29 12:32:41] SBS96 de novo extraction completed for a total of 36 signatures! 
+Execution time:0:33:07
+
+[2022-09-29 13:10:09] SBS96 de novo extraction completed for a total of 37 signatures! 
+Execution time:0:37:27
+
+[2022-09-29 13:49:42] SBS96 de novo extraction completed for a total of 38 signatures! 
+Execution time:0:39:33
+
+[2022-09-29 14:35:47] SBS96 de novo extraction completed for a total of 39 signatures! 
+Execution time:0:46:05
+
+[2022-09-29 15:12:48] SBS96 de novo extraction completed for a total of 40 signatures! 
+Execution time:0:37:01
+
+[2022-09-29 15:57:03] SBS96 de novo extraction completed for a total of 41 signatures! 
+Execution time:0:44:14
+
+[2022-09-29 16:42:50] SBS96 de novo extraction completed for a total of 42 signatures! 
+Execution time:0:45:47
+
+[2022-09-29 17:31:47] SBS96 de novo extraction completed for a total of 43 signatures! 
+Execution time:0:48:57
+
+[2022-09-29 18:16:53] SBS96 de novo extraction completed for a total of 44 signatures! 
+Execution time:0:45:05
+
+[2022-09-29 19:09:34] SBS96 de novo extraction completed for a total of 45 signatures! 
+Execution time:0:52:41
+
+[2022-09-29 20:04:53] SBS96 de novo extraction completed for a total of 46 signatures! 
+Execution time:0:55:18
+
+[2022-09-29 21:04:13] SBS96 de novo extraction completed for a total of 47 signatures! 
+Execution time:0:59:20
+
+[2022-09-29 21:54:29] SBS96 de novo extraction completed for a total of 48 signatures! 
+Execution time:0:50:16
+
+[2022-09-29 22:51:26] SBS96 de novo extraction completed for a total of 49 signatures! 
+Execution time:0:56:56
+
+[2022-09-29 23:52:50] SBS96 de novo extraction completed for a total of 50 signatures! 
+Execution time:1:01:24
+
+[2022-09-30 00:57:34] SBS96 de novo extraction completed for a total of 51 signatures! 
+Execution time:1:04:43
+
+[2022-09-30 01:56:10] SBS96 de novo extraction completed for a total of 52 signatures! 
+Execution time:0:58:35
+
+[2022-09-30 03:01:15] SBS96 de novo extraction completed for a total of 53 signatures! 
+Execution time:1:05:05
+
+[2022-09-30 04:11:07] SBS96 de novo extraction completed for a total of 54 signatures! 
+Execution time:1:09:51
+
+[2022-09-30 05:23:20] SBS96 de novo extraction completed for a total of 55 signatures! 
+Execution time:1:12:12
+
+[2022-09-30 06:29:30] SBS96 de novo extraction completed for a total of 56 signatures! 
+Execution time:1:06:09
+
+[2022-09-30 07:42:08] SBS96 de novo extraction completed for a total of 57 signatures! 
+Execution time:1:12:38
+
+[2022-09-30 08:57:24] SBS96 de novo extraction completed for a total of 58 signatures! 
+Execution time:1:15:15
+
+[2022-09-30 10:14:36] SBS96 de novo extraction completed for a total of 59 signatures! 
+Execution time:1:17:11
+
+[2022-09-30 11:26:28] SBS96 de novo extraction completed for a total of 60 signatures! 
+Execution time:1:11:52
+
+[2022-09-30 12:50:34] SBS96 de novo extraction completed for a total of 61 signatures! 
+Execution time:1:24:06
+
+[2022-09-30 14:16:05] SBS96 de novo extraction completed for a total of 62 signatures! 
+Execution time:1:25:30
+
+[2022-09-30 14:22:58] Analysis ended: 
+
+-------Job Status------- 
+Analysis of mutational signatures completed successfully! 
+Total execution time: 1 day, 9:43:17 
+Results can be found in:  /data/rozen/home/wuyang/practice/6_Mo_mSigHdp/mSigHdp_paper_sup_files_x1/SBS_set2/raw_results/SigProfilerExtractor.results/Realistic/seed.1076753/  folder
